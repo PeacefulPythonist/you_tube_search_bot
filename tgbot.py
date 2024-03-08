@@ -1,6 +1,15 @@
-""""
-tgbot.py: This file contains functions for interacting with the Telegram bot, such as sending messages and handling updates.
 """
+tgbot.py: Functions for interacting with the Telegram bot.
+
+Functions:
+- send_message(text, message=ADMIN_ID): Sends a message to a specified user or chat.
+- get_updates(): Retrieves updates from the Telegram bot.
+- send_hello(message): Sends an introductory message to the user.
+- send_links(links, user_id=None): Sends a list of links to the user.
+- send_error_message(): Sends an error message to the admin in case of an exception.
+- set_webhook(server_url=None): Sets the webhook for the Telegram bot (used in AWS Lambda).
+"""
+
 import sys
 import traceback
 
