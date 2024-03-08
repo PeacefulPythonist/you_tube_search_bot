@@ -1,3 +1,11 @@
+"""
+main.py: AWS Lambda handler for processing incoming messages and providing YouTube links.
+
+Functions:
+- get_links(text): Determines the type of input and retrieves corresponding YouTube links.
+- message_processing(message): Processes incoming messages and sends relevant links to the user.
+- main(event=None, context=None): AWS Lambda handler that calls message_processing and handles exceptions.
+"""
 
 
 from base_lambda import get_message
