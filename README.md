@@ -13,8 +13,6 @@ This project is a Telegram bot deployed on AWS Lambda that facilitates YouTube s
 5. [Installation](#installation)
 6. [Configuration](#configuration)
 7. [Deployment](#deployment)
-8. [Contributing](#contributing)
-9. [License](#license)
 
 ## Introduction
 
@@ -43,7 +41,7 @@ Users interact with the bot through Telegram. They can send messages containing 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/YouTube-Search-Bot.git
+    git clone https://github.com/PeacefulPythonist/you_tube_search_bot.git
     ```
 
 2. Install dependencies:
@@ -64,11 +62,3 @@ Users interact with the bot through Telegram. They can send messages containing 
 2. Set up the Telegram bot and obtain API keys.
 3. Configure the bot by updating API keys and constants.
 4. Test the bot on Telegram.
-
-## Contributing
-
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
