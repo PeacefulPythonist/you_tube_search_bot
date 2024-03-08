@@ -1,3 +1,11 @@
+"""
+yt_search.py: Functions for searching YouTube and retrieving video links.
+
+Functions:
+- get_serch_result(text): Searches YouTube for videos and returns their links.
+- get_playlist_videos(url): Retrieves video links from a YouTube playlist.
+- get_channel_videos(link: str): Retrieves video links from a YouTube channel.
+"""
 
 from youtubesearchpython import VideosSearch
 from youtubesearchpython import Video, ResultMode
