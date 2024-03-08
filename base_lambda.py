@@ -1,4 +1,9 @@
+"""
+base_lambda.py: Includes essential functions for working with AWS Lambda.
 
+Functions:
+- get_message(event, name="message", json_file=False): Extracts a specified message from an event or bot updates.
+"""
 
 import json
 
