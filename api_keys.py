@@ -1,8 +1,12 @@
+"""
+api_keys.py: Contains API keys and other constants used in the project.
 
+Variables:
+- ADMIN_ID (str): Telegram ID of the admin user.
+- MAIN_BOT (str): Main Telegram bot token.
+- TEST_BOT (str): Test Telegram bot token.
+"""
+ADMIN_ID = "YOUR_TELEGRAM_ID"
 
-ADMIN_ID = "6982031238"
-
-MAIN_BOT = '7152547413:AAEXckXfzws1pq-lZ_086dC-ogcEAKgcuAo'
-TEST_BOT = "7031080998:AAEw55taYmIYvwPOuZIIf1YhgszfnmI2aAM" # @https://t.me/test2mi_bot
-
-
+MAIN_BOT = 'YOUR_BOT_TOKEN'
+TEST_BOT = "YOUR_BOT_TOKEN" 
